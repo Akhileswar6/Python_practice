@@ -51,9 +51,9 @@ age3 = 19
 s = "Adult" if age >=18 else "Minor"
 print(f"Status: {s}")
 
+
 # Match-Case Statement
 number = 1
-
 match number:
     case 1:
         print("One")
