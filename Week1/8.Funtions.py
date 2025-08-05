@@ -102,24 +102,29 @@ print(square_value(9))
 print(square_value(2))
 
 
-# Pass by Reference and Pass by Value
+# Pass by Value -> immutable types (int, str, tuple)
+def change_num(num):
+    num = num + 10
+    print("Value inside function:", num)
+num = 5
+change_num(num)
+print("Value outside function:", num)
+
+# Pass by Reference -> mutable types (list, dict, set0
+def add_item(mylist):
+    mylist.append(4)
+    print("List inside function:", mylist)
+
+lst = [1, 2, 3]
+add_item(lst)
+print("Outside function:", lst)
 
 
-
-
-
-
-# Function with return value
-def func4(name):
-    return "Hello " + name
-result = func4("Geeks")
-print(result)
-
-# Function with multiple return values
-def func5(name, age):
-    return "Hello " + name, age
-greeting, age = func5("Geeks", 5)
-print(greeting)
-print("You are " + str(age) + " years old.")
-
+# Recursive Function
+def factorial(n):
+    if n == 0:
+        return 1
+    else:
+        return n*factorial(n-1)
+print(factorial(5))  # Output: 120
 

@@ -1,0 +1,33 @@
+# local variables
+def greet():
+    msg = "Hello from inside the function!"
+    print(msg)
+
+greet()
+
+
+# global variables
+msg = "Hello"
+def greet_global():
+    print("Inside:",msg)
+
+greet_global()
+print("Outside:",msg)  # Accessing global variable outside the function
+
+
+def fun():
+    print("Inside Function", s)
+
+s = "I love Geeksforgeeks"
+fun()
+print("Outside Function", s)
+
+
+# Modifying Global Variables Inside a Function
+def fun():
+    global s
+    s += "Akhil"
+    print(s)
+s = "I love Geeksforgeeks "
+fun()
+print("Outside Function", s)
