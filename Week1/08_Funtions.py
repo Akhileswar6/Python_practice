@@ -52,17 +52,17 @@ print(34,"akhil")
 
 
 # Arbitary keyword Arguments
-# *args in Python (Non-Keyword Arguments)
+# *args -> *argv allows you to pass a variable number of positional arguments to a function and becomes a tuple.
 def myFunc(*argv):
     for i in argv:
         print(i)
 myFunc("akhil","vishnu","suresh")
 
-# **kwargs in Python (Keyword Arguments)
+# **kwargs -> **argv allows you to pass a variable number of keyword arguments and becomes a dictionary.
 def myFunc(**kwargs):
     for key,value in kwargs.items():
         print("%s == %s" % (key, value))
-myFunc(first="geeks", mid="for", last="geeks")
+myFunc(first="Akhil", mid="for", last="Kamale")
 
 
 # Docstring
