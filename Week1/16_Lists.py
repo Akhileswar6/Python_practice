@@ -10,6 +10,16 @@ print(a[1:4])
 print(a[::-1])
 
 
+# Using list() Constructor
+a = list((1, 2, 3, 'apple', 4.5))  
+print(a)
+
+
+# Creaing list with repeated elements
+d = [12] * 5
+print(d)
+
+
 # From a tuple
 b = list((1, 2, 3, 'apple', 4.5))  
 print(b)
@@ -20,15 +30,9 @@ c = list(range(12))
 print(c)
 
 
-# Creaing list with repeated elements
-d = [12] * 5
-print(d)
-
-
 # List comprehension
 e = [x**2 for x in range(10)]
 print(e)
-
 
 # Adding Elements into List
 lst = []
@@ -66,17 +70,6 @@ del lst2[0]
 print("After del a[0]:", lst2)
 
 
-# Python List Operations
-lst3 = [1, 2, 3, 4, 5]
-print("Initial list:", lst3)
-print("Length of list:", len(lst3))
-print("Maximum element:", max(lst3))
-print("Minimum element:", min(lst3))
-print("Sum of elements:", sum(lst3))
-print("Index of element 3:", lst3.index(3))
-print("Count of element 2:", lst3.count(2))
-
-
 # Iterating through a list
 fruits = ["apple", "banana", "cherry"]
 for fruit in fruits:
@@ -90,3 +83,21 @@ matrix = [
 ]
 
 print(matrix[1][2])
+
+
+# Python List Operations
+lst3 = [109, 23, 3, 34, 53]
+print("Initial list:", lst3)
+print("Length of list:", len(lst3))
+print("Maximum element:", max(lst3))
+print("Minimum element:", min(lst3))
+print("Sum of elements:", sum(lst3))
+print("Index of element 3:", lst3.index(3))
+print("Count of element 2:", lst3.count(2))
+print("Sorted list:", sorted(lst3))
+print("Reversed list:",list(reversed(lst3)))
+
+
+
+
+
