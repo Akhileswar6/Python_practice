@@ -70,3 +70,10 @@ for value in d7.values():
 # Iterate over key-value pairs
 for key, value in d7.items():
     print(f"{key}: {value}")
+
+
+# Nested Dictionaries
+d = {1: 'Geeks', 2: 'For',
+        3: {'A': 'Welcome', 'B': 'To', 'C': 'Geeks'}}
+
+print(d)
