@@ -20,6 +20,9 @@ print(set(tup))
 d = {"Geeks": 1, "for": 2, "Geeks": 3}
 print(set(d))
 
+
+
+
 # Adding Elements to a Set in Python
 set4 = {3,4,5,6,7,8,9}
 set4.add(10)
@@ -53,3 +56,8 @@ print("Set after popping an element:", set8)
 set9 = {1, 2, 3, 4, 5}
 set9.clear()
 print("Set after clearing:", set9)
+
+
+
+
+
