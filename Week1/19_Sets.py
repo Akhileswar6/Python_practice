@@ -20,6 +20,16 @@ print(set(tup))
 d = {"Geeks": 1, "for": 2, "Geeks": 3}
 print(set(d))
 
+
+# Unordered, Unindexed and Mutability
+sets = {1, 2, 3, 4, 5}
+print(sets)
+try:
+    print(sets[1])
+except TypeError as e:
+    print('Error', e)
+
+
 # Adding Elements to a Set in Python
 set4 = {3,4,5,6,7,8,9}
 set4.add(10)
@@ -31,7 +41,7 @@ print(set4)
 # Accessing a Set in Python
 set5= {1, 2, 3, 4, 5}
 for i in set5:
-    print(i)
+    print(i,end=" ")
 
 # Removing Elements from a Set
 set6 = {1, 2, 3, 4, 5}
@@ -53,3 +63,11 @@ print("Set after popping an element:", set8)
 set9 = {1, 2, 3, 4, 5}
 set9.clear()
 print("Set after clearing:", set9)
+
+# Frozen Sets
+fset = frozenset([1,2,3,4,5,6,8])
+print(fset)
+
+s = {2,3,4,5,6}
+print(frozenset(s))
+
