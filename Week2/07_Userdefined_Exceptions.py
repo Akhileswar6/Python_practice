@@ -68,3 +68,62 @@ try:
 
 except Networkerror as e:
     print(e.args)
+
+
+
+# Step 1: Create custom exception
+class NegativeNumberError(Exception):
+    """Raised when the number is negative"""
+    pass
+
+# Step 2: Use it
+num = int(input("Enter a positive number: "))
+
+if num < 0:
+    raise NegativeNumberError("Negative numbers are not allowed")
+else:
+    print("You entered",num)
+
+
+# Handling User Defined Exceptions
+class AgetoSmallError(Exception):
+    """Raised when age is below 18"""
+    pass
+try:
+    age = int(input("Enter your age:"))
+    if age < 18:
+        raise AgetoSmallError("Age must be at least 18 to vote.")
+    print("you are eligible to vote.")
+except AgetoSmallError as e:
+    print("Custom Exception Caught:",e)
+
+
+class EmptyStringError(Exception):
+    """Raised when input string is empty"""
+    pass
+
+try:
+    name = input("Enter your name: ")
+    if not name.strip():   # checks empty or spaces only
+        raise EmptyStringError("Name cannot be empty!")
+    print("Hello,", name)
+except EmptyStringError as e:
+    print("Custom Exception Caught:", e)
+
+
+# Invalid Email Error
+import re
+class InvalidEmailError(Exception):
+    """Raised when email format is invalid"""
+    pass
+
+try:
+    email = input("Enter your email: ")
+    if not re.match(r"[^@]+@[^@]+\.[^@]+", email):
+        raise InvalidEmailError("Invalid email format!")
+    print("Email is valid:", email)
+except InvalidEmailError as e:
+    print("Error:", e)
+
+
+
