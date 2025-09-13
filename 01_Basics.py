@@ -3,7 +3,7 @@ amount = 150.7524352
 print("Amount: ${:.2f}".format(amount))
 
 # Seprating with Comma
-print('G', 'F', 'G', sep='')
+print('G', 'F', 'G', sep=',')
 
 # for formatting a date
 print('09', '12', '2016', sep='-')
@@ -30,14 +30,12 @@ age = 21
 print(f"My name is {name} and I am {age} years old.")
 
 # using garbage collection
-s = 23
-m = s
-s = 45
-# The variable 'm' still holds the value 23, demonstrating that 's' was reassigned.
-print(m)
-# If we assgin value to m, it will not change the value of s
-m = 100
-print(m) # Now 23 is eligible for garbage collection
-print(s)
+s = 23        # s → 23 (int object)
+m = s         # m → 23 (both point to same int object)
+s = 45        # s reassigned to new int object (45), m still points to 23
+print(m)      # Output: 23
 
-print(10%3)
+m = 100       # m reassigned to 100, now nothing refers to 23
+print(m)      # Output: 100
+
+print(s)      # Output: 45

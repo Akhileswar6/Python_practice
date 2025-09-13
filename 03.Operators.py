@@ -41,11 +41,11 @@ a3 = 5  # 0101 in binary
 b3 = 3  # 0011 in binary
 
 print("\nBitwise Operators:")
-print("a3 & b3:", a3 & b3)  # Bitwise AND
-print("a3 | b3:", a3 | b3)  # Bitwise OR
-print("a3 ^ b3:", a3 ^ b3)  # Bitwise XOR
-print("~a3:", ~a3)          # Bitwise NOT
-print("a3 << 1:", a3 << 1)  # Left Shift
+print("a3 & b3:", a3 & b3)  # Bitwise AND -> Compares each bit → 1 & 1 = 1, else 0.
+print("a3 | b3:", a3 | b3)  # Bitwise OR -> Compares each bit → 1 | 0 = 1, 0 | 1 = 1, 1 | 1 = 1.
+print("a3 ^ b3:", a3 ^ b3)  # Bitwise XOR -> XOR → 1 if bits are different, 0 if same.
+print("~a3:", ~a3)          # Bitwise NOT 
+print("a3 << 1:", a3 << 1)  # Left Shift 
 print("a3 >> 1:", a3 >> 1)  # Right Shift
 
 
