@@ -30,8 +30,8 @@ for char in "hello":
 
 # Iterating by the Index of Sequences
 li = ["Geeks","for","Geeks"]
-for index in range(len(li)):
-    print(li[index])
+for i in range(len(li)):
+    print(li[i])
 
 # Using else Statement with for Loop in Python
 li = ["geeks", "for", "geeks"]
@@ -94,6 +94,6 @@ print()
 
 # Pass Statement
 for letter in "Akhileswar":
-    if letter == 'h':
+    if letter == 'i':
         pass 
     print(letter, end=' ')
