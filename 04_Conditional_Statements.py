@@ -5,7 +5,7 @@ if age > 18:
     print("You are an adult.")
 
 # Short Hand if
-if age > 18: print("You are eligible to vote.")
+if age > 18 : print("You are eligible to vote.")
 
 
 # If-else condition
