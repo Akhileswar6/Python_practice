@@ -5,7 +5,7 @@ for item in items:
     print("Buy:",item.strip())
 
 # Print squares of numbers from 1 to n
-n = int(input("Enter a number;"))
+n = int(input("Enter a number:"))
 for i in range(1,n):
     print(i**2)
 
@@ -23,14 +23,13 @@ num = int(input("Enter number (0 to stop): "))
 while num != 0:
     total += num
     num = int(input("Enter number (0 to stop): "))
-print("Total sum;",total)
+print("Total sum:",total)
 
 # Print a multiplication table
 n = 3
-for i in range(1, n+1):
-    for j in range(1,11):
-        print(i * j, end=' ')
-    print()
+for i in range(1, 11):
+    print(f"{n} X {i} = {n*i}")
+    
 
 # Print Identity Matrix Pattern
 n = 5
@@ -79,4 +78,6 @@ tasks = ["email", "meeting", "call"]
 for task in tasks:
     if task == "call":
         pass  # Logic to be added later
-    print("Do:", task)
+    print("\nDo:", task)
+
+    
