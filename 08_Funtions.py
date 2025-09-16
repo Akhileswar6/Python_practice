@@ -48,7 +48,7 @@ print("Case-1:")
 nameAge("suraj",32)
 
 print("\nCase-2:")
-print(34,"akhil")
+nameAge(34,"akhil")
 
 
 # Arbitary keyword Arguments
@@ -56,6 +56,7 @@ print(34,"akhil")
 def myFunc(*argv):
     for i in argv:
         print(i)
+        print(type(argv))
 myFunc("akhil","vishnu","suresh")
 
 # **kwargs -> **argv allows you to pass a variable number of keyword arguments and becomes a dictionary.
@@ -82,8 +83,10 @@ def f1():
     s="i love you!"
 
     def f2():
+        print("Inside f2")
         print(s)
     f2()
+    print("Inside f1")
 f1()
 
 
@@ -104,13 +107,13 @@ print(square_value(2))
 
 # Pass by Value -> immutable types (int, str, tuple)
 def change_num(num):
-    num = num + 10
+    num = num + 10                           
     print("Value inside function:", num)
-num = 5
+num = 5                               
 change_num(num)
-print("Value outside function:", num)
+print("Value outside function:", num + num)
 
-# Pass by Reference -> mutable types (list, dict, set0
+# Pass by Reference -> mutable types (list, dict, set)
 def add_item(mylist):
     mylist.append(4)
     print("List inside function:", mylist)
@@ -122,9 +125,9 @@ print("Outside function:", lst)
 
 # Recursive Function
 def factorial(n):
-    if n == 0:
+    if n == 0 or n == 1:
         return 1
     else:
         return n*factorial(n-1)
-print(factorial(5))  # Output: 120
+print(factorial(7))  # Output: 120
 
