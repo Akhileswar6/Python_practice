@@ -1,10 +1,8 @@
 def factorial(n):
-    if n == 0:
-        return 1
-    elif  n == 1:
+    if n == 0 or n == 1:
         return 1
     else:
-        return n* factorial(n-1)
+        return n * factorial(n-1)
 print(factorial(5))  # Output: 120
 
 
@@ -15,7 +13,7 @@ def tail_factorial(n, acc=1):
     else:
         return tail_factorial(n - 1, acc * n)
 
-print(tail_factorial(4))
+print(tail_factorial(5))
 
 # non-tail recursion -> In non-tail recursion, the recursive call is not the last operation — something still has to be done after it returns.
 def factorial(n):
@@ -38,7 +36,6 @@ def sum_n(n):
     if n == 0:
         return 0
     return n + sum_n(n - 1)
-
 print(sum_n(5))  # Output: 15
 
 

@@ -9,7 +9,7 @@ greet()
 # global variables
 msg = "Hello"
 def greet_global():
-    print("Inside:",msg)
+    print("Inside:",msg)   # Accessing global variable inside the function
 
 greet_global()
 print("Outside:",msg)  # Accessing global variable outside the function
