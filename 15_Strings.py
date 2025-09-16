@@ -16,19 +16,19 @@ print(str3.lower())
 print(str4.strip()) # Remove leading and trailing spaces
 print(str3.replace("Venkateswara", "College")) # Replace substring
 print(str3.split()) # Split into a list of words
-print(str3.find("Venkateswara")) # Find the index of a substring
+print(str3.find("a")) # Find the index of a substring
 print(str3.index("Venkateswara")) # Find the index of a substring (raises error if not found)
 print(str3.count("a")) # Count occurrences of a character
 print(str3.startswith("Ven")) # Check if string starts with a substring
 print(str3.endswith("ara")) # Check if string ends with a substring
 print(str3.isalpha())
 print(str3.isdigit()) 
-print(str3.isalnum())
+print(str3.isalnum()) 
 print(str3.islower())
 print(str3.isupper())
 print(str3.isnumeric())
 print(str3.isprintable())  
-print(str3.isidentifier()) 
+print(str3.isidentifier())
 print(str3.capitalize()) # Capitalize the first character
 print(str3.title()) # Convert first character of each word to uppercase
 print(str3.swapcase()) # Swap case of all characters

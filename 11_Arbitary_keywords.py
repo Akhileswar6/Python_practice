@@ -8,7 +8,7 @@ myFunc("akhil","vishnu","suresh")
 def func1(*names):
     for i in names:
         print("Hello " + i)
-func1("Akhli", "Vishnu", "Suresh")
+func1("Akhil", "Vishnu", "Suresh")
 
 
 # **kwargs -> **argv allows you to pass a variable number of keyword arguments and becomes a dictionary.
