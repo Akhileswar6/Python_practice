@@ -26,12 +26,12 @@ print(b)
 
 
 # Creating a list with a range
-c = list(range(12))
+c = list(range(1,12))
 print(c)
 
 
 # List comprehension
-e = [x**2 for x in range(10)]
+e = [x**2 for x in range(11)]
 print(e)
 
 # Adding Elements into List
