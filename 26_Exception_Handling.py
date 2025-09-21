@@ -19,10 +19,11 @@ except ZeroDivisionError as e:
 # Syntax Error (Error)
 # print("Hello world"   Missing closing parenthesis
 
-ZeroDivisionError (Exception)
-n = 10
-res = n / 0
+# ZeroDivisionError (Exception)
+# n = 10
+# res = n / 0
 
+# =====================================================
 
 # Syntax and Usage
 # try:
