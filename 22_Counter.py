@@ -2,8 +2,8 @@ from collections import Counter
 
 val = [1, 2, 2, 3, 3, 3, 4, 4, 4, 4]
 val1 = ["a","d","g","h","i","i","a"]
-ctr = Counter(val1)
-print(ctr)
+print(Counter(val1))
+print(Counter(val))
 
 # Creating a Counter
 ctr1 = Counter([1,1,3,3,4,6])
@@ -15,10 +15,10 @@ print(ctr3)
 
 # Accessing Counter Elements
 ctr = Counter([1,2,2,3,3,3])
-print(ctr[1])
-print(ctr[2])
-print(ctr[3])
-print(ctr[5])
+print(ctr[1])   # print count of 1
+print(ctr[2])   # print count of 2 
+print(ctr[3])   # print count of 3
+print(ctr[5])   # print count of 5 (not present, so returns 0)
 
 # Updating counters
 ctr4 = Counter([2,3,4,5,1,2])
