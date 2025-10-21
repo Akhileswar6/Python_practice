@@ -20,22 +20,35 @@
 
 
 
-Welcome to my **Python Practice Repo**, where I learn and apply Python programming concepts through small projects, exercises, and coding challenges.
+- Python Practice is a repository by [***Akhileswar Kamale***](https://github.com/Akhileswar6)
+- created to explore and master every core concept of Python through hands-on coding.
+- The repository contains topic-wise Python scripts — covering fundamental, intermediate, and advanced concepts — all organized for clarity and continuous learning.
+- It serves as both a personal reference and a comprehensive collection for anyone learning Python, focusing on writing clean, efficient, and well-structured code across all major Python topics.
 
----
 
-## 📚 Topics Covered
+##  Topics Covered
 - Python Basics (Variables, Loops, Functions)
-- Data Structures (Lists, Tuples, Dictionaries, Sets)
+- Data Structures (Lists, Tuples, Dictionaries, Sets, Arrays)
 - File Handling & Exception Handling
 - Object-Oriented Programming
-- Problem Solving & HackerRank Challenges
+- Python Modules
+- Python API
 
----
 
-## 🚀 How to Run the Programs
+##  How to Run the Programs
 Clone this repository:
 ```bash
 git clone https://github.com/Akhileswar6/Python_practice.git
 cd Python_practice
+```
+
+## Run any Python file
+```
+python topic_name.py
+```
+
+## Support
+
+If you find this repository helpful, star ⭐ it to show your support and motivate further learning!
+
 
