@@ -1,18 +1,19 @@
 name: Python Auto Test
 
-on: [push]   # means: run this every time I push code to GitHub
+on: [push]
 
 jobs:
-  test:      # name of the job
-    runs-on: ubuntu-latest   # the environment (like a virtual computer)
+  check:
+    runs-on: ubuntu-latest
     steps:
       - name: Checkout code
-        uses: actions/checkout@v3   # step 1: get your code from GitHub
+        uses: actions/checkout@v3
 
       - name: Set up Python
-        uses: actions/setup-python@v5   # step 2: install Python
+        uses: actions/setup-python@v5
         with:
-          python-version: '3.10'        # version to use
+          python-version: '3.10'
 
-      - name: Run a test command
-        run: python --version           # step 3: run your Python command
+      - name: Check Python Syntax
+        run: |
+          python -m compileall .
