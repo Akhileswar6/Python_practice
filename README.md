@@ -42,13 +42,29 @@ git clone https://github.com/Akhileswar6/Python_practice.git
 cd Python_practice
 ```
 
-## Run any Python file
-```
-python topic_name.py
-```
 
-## Support
 
-If you find this repository helpful, star ⭐ it to show your support and motivate further learning!
+## Contributing
+
+Contributions are welcome. If you'd like to add examples or fix issues:
+
+1. Fork the repository
+2. Create a branch for your change
+3. Submit a pull request with a clear description of what changed and why
+
+Please keep additions focused, well-documented, and runnable.
+
+## License
+
+This repository uses the MIT License. See the `LICENSE` file for details if present.
+
+---
+
+If you'd like, I can also:
+
+- add a `requirements.txt` listing optional packages used across scripts
+- add small README badges (language, license, build) and a table of contents
+
+Tell me which additions you want and I'll make them.
 
 
