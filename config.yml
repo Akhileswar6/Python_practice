@@ -1,0 +1,19 @@
+# config.yaml - Professional Python Practice Settings
+
+user:
+  name: "Akhileswar Kamale"
+  github: "https://github.com/Akhileswar6"
+  linkedin: "https://www.linkedin.com/in/akhileswar-kamale"
+
+python:
+  version: "3.10"
+  show_welcome_message: true
+
+folders:
+  basics: true
+  intermediate: true
+  problems: true
+
+settings:
+  display_output: true
+  log_errors: true
