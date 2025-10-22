@@ -58,13 +58,4 @@ Please keep additions focused, well-documented, and runnable.
 
 This repository uses the MIT License. See the `LICENSE` file for details if present.
 
----
-
-If you'd like, I can also:
-
-- add a `requirements.txt` listing optional packages used across scripts
-- add small README badges (language, license, build) and a table of contents
-
-Tell me which additions you want and I'll make them.
-
 
