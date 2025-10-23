@@ -1,6 +1,7 @@
-# In Python, date and time are not built-in types but are handled using built-in datetime module. This module offers classes to efficiently work with dates, times and intervals, providing many useful methods.
+"""In Python, date and time are not built-in types but are handled using built-in datetime module.
+This module offers classes to efficiently work with dates, times and intervals, providing many useful methods."""
 
-# Date Class
+"""Date Class"""
 # Example 1: Creating a Date Object
 from datetime import date
 d = date(1996, 12, 11)
@@ -9,14 +10,12 @@ print(d)
 # Example 2: Get Current Date
 from datetime import date
 t = date.today()
-print(t)
+print(f"Current date: {t}")
 
 # Example 3: Accessing Year, Month and Day Attributes
 from datetime import date
 t = date.today()
-print(t.year)
-print(t.month)
-print(t.day)
+print(f"Year: {t.year}, Month: {t.month}, Day: {t.day}")
 
 # Example 4: Create Date from Timestamp
 from datetime import datetime
@@ -32,7 +31,7 @@ print(date_str)
 print(type(date_str))
 
 
-# Time class
+"""Time class"""
 # Example 1: Time object representing time in Python
 from datetime import time
 
@@ -47,9 +46,6 @@ print("Time with one argument:", my_time)
 # Time object with default (00:00:00)
 my_time = time()
 print("Time without argument:", my_time)
-
-# time(hour=26)      → ValueError: hour must be in 0..23
-# time(hour='23')    → TypeError: string passed instead of int
 
 
 # Example 2: Get hours, minutes, seconds and microseconds
@@ -67,6 +63,7 @@ from datetime import time
 
 # Creating Time object
 Time = time(12,24,36,1212)
+print("Time Object:", Time)
 
 # Converting Time object to string
 Str = Time.isoformat()
@@ -74,18 +71,17 @@ print("String Representation:", Str)
 print(type(Str))
 
 
-
-# Datetime class
+"""Datetime class"""
 # Example 1: DateTime object representing DateTime in Python 
 from datetime import datetime
 
 # Initializing constructor
 a = datetime(1999, 12, 12)
-print(a)
+print(f"DateTime object: {a}")
 
 # Initializing constructor with time parameters as well
 a = datetime(1999, 12, 12, 12, 12, 12, 342380)
-print(a)
+print(f"DateTime object with time: {a}")
 
 
 # Example 2: Get year, month, hour, minute and timestamp
@@ -107,7 +103,6 @@ today = datetime.now()
 print("Current date and time is", today)
 
 
-
 # Example 4: Convert Python Datetime to String
 from datetime import datetime as dt
 
@@ -118,7 +113,7 @@ print(string)
 print(type(string))
 
 
-# Timezone class
+"""Timezone class"""
 from datetime import datetime
 from pytz import timezone
 
