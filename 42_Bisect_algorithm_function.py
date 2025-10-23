@@ -1,4 +1,4 @@
-# Bisect Algorithm Functions -> The bisect module in Python provides simple and fast (binary search based) functions to search an element in a sorted list.
+"""The bisect module in Python provides simple and fast (binary search based) functions to search an element in a sorted list."""
 
 # • Finding the insertion point (without insertion)
 # • Inserting elements at the correct position 

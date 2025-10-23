@@ -1,7 +1,7 @@
-# Functools module in Python -> The functools module offers a collection of tools that simplify working with functions and callable objects.
+"""The functools module offers a collection of tools that simplify working with functions and callable objects."""
 
 # 1. Partial class
-# The partial class fix certain arguments of a function and create a new function with fewer parameters.
+"""The partial class fix certain arguments of a function and create a new function with fewer parameters."""
 
 # Example:
 from functools import partial
@@ -23,7 +23,8 @@ print(power_of_5.args)
 
 
 # 2. Partialmethod Class
-# Partialmethod works like partial, but for class methods. It allows you to fix some method arguments when defining methods inside classes without making a new method manually.
+"""Partialmethod works like partial, but for class methods.
+It allows you to fix some method arguments when defining methods inside classes without making a new method manually."""
 
 # Example:
 from functools import partialmethod
