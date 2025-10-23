@@ -1,10 +1,11 @@
-# The math module in Python is a built-in library that contains a collection of mathematical functions and constants. It is commonly used to perform standard math operations such as rounding, trigonometry, logarithms and more, all with precise and reliable results.
+"""The math module in Python is a built-in library that contains a collection of mathematical functions and constants.
+It is commonly used to perform standard math operations such as rounding, trigonometry, logarithms and more, all with precise and reliable results."""
 
 # Importing math Module
 import math
 
-# Constants in math module
 
+"""Constants in math module"""
 # 1. Euler's Number -> The math.e constant returns the Euler’s number: 2.71828182846.
 
 # Example:
@@ -16,13 +17,13 @@ print(f"Euler's number: {math.e}")
 
 # Example - 1
 import math 
-print(f"Pi: {math.pi}")
+print(f"Pi{math.pi}")
 
 # Example - 2
-import math 
+import math
 r = 4
 pie = math.pi
-print(f"Area of Circle: {pie*r*r}") 
+print(f"Area of Circle: {pie*r*r}")
 
 
 # 3. tau -> Tau is defined as the ratio of the circumference to the radius of a circle. The math.tau constant returns the value tau: 6.283185307179586.
@@ -45,8 +46,7 @@ print (math.inf > 10e108)
 print (-math.inf < -10e108)
 
 
-# Numeric Functions in Math Module
-
+"""Numeric Functions in Math Module"""
 # 1. Finding the ceiling and the floor value
 import math 
 a = 2.3
@@ -72,14 +72,13 @@ print (math.gcd(b, a))
 
 
 # 4. Finding the absolute value
-import math 
+import math
 a = -10
 print ("The absolute value of -10 is : ", end="") 
 print (math.fabs(a))
 
 
-# Logarithmic and Power Functions
-
+"""Logarithmic and Power Functions"""
 # 1. Finding the power of exp -> exp() method is used to calculate the power of e.
 import math 
 test_int = 4
@@ -107,12 +106,12 @@ print (math.log10(10000))
 
 # 4. Finding the Square root
 import math 
-print(math.sqrt(0)) 
-print(math.sqrt(4)) 
+print(math.sqrt(0))
+print(math.sqrt(4))
 print(math.sqrt(3.5))
 
 
-# Trigonometric and Angular Functions
+"""Trigonometric and Angular Functions"""
 
 # 1. Finding sine, cosine and tangent
 import math 

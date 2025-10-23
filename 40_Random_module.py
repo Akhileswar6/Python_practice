@@ -1,6 +1,6 @@
-# Python Random module generates random numbers in Python. It introduce randomness into programs.
+"""Python Random module generates random numbers in Python. It introduce randomness into programs."""
 
-# Examples of Random Module
+"""Examples of Random Module"""
 # Example 1: Pick a Random Element from a List
 import random
 a = [1, 2, 3, 4, 5, 6]
@@ -50,7 +50,7 @@ print(sample(a,3))
 b = (4, 5, 6, 7, 8)
 print(sample(b,3))
 
-c = "45678"
+c = "Akhil"
 print(sample(c,3))
 
 
@@ -59,9 +59,7 @@ import random
 a = [1, 2, 3, 4, 5]
 
 random.shuffle(a)
-print("After shuffle : ")
-print(a)
+print("After shuffle : ",a)
 
 random.shuffle(a)
-print("\nSecond shuffle : ")
-print(a)
+print("\nSecond shuffle : ",a)
