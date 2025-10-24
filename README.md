@@ -27,12 +27,18 @@
 
 
 ##  Topics Covered
-- Python Basics (Variables, Loops, Functions)
-- Data Structures (Lists, Tuples, Dictionaries, Sets, Arrays)
-- File Handling & Exception Handling
-- Object-Oriented Programming
+- Python Basics (Datatypes, Conditional Statements, Loops, Functions)
+- Data Structures (Lists, Tuples, Dictionaries, Sets, Arrays, Strings)
+- Decorators
+- Counters
+- Deque & HeapQ 
+- Exception Handling
+- File Handling
+- Object-Oriented Programming(Class & Objects, Encapsulation, Inheritance, Polymorphism, Data Abstraction)
 - Python Modules
-- Python API
+- Bisect Algorithm Function
+- Python API's & requests
+- Generators & Yield
 
 
 ##  How to Run the Programs
@@ -53,9 +59,5 @@ Contributions are welcome. If you'd like to add examples or fix issues:
 3. Submit a pull request with a clear description of what changed and why
 
 Please keep additions focused, well-documented, and runnable.
-
-## License
-
-This repository uses the MIT License. See the `LICENSE` file for details if present.
 
 
