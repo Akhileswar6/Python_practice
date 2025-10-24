@@ -1,11 +1,11 @@
-# yield Keyword -> In Python, yield keyword is used to create generators, which are special types of iterators that allow values to be produced lazily, one at a time, instead of returning them all at once.
+"""Yield keyword is used to create generators, which are special types of iterators that allow values to be produced lazily, one at a time, instead of returning them all at once."""
 
 # Syntax
 # def generator_function():
 #     yield value
 
 
-# Examples of yield
+"""Examples of yield"""
 # Example 1: Simple Generator to Yield Numbers Sequentially
 def fun(m):
     for i in range(m):

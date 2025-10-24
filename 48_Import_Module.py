@@ -1,5 +1,6 @@
-# Import module in Python
-# In Python, modules help organize code into reusable files. They allow you to import and use functions, classes and variables from other scripts.
+"""Import module in Python
+In Python, modules help organize code into reusable files.
+They allow you to import and use functions, classes and variables from other scripts."""
 
 # Importing built-in Module
 import math
@@ -7,11 +8,11 @@ pie = math.pi
 print("Value of pi:", pie)
 
 
+"""Importing External Modules
+To use external modules, we need to install them first, we can easily install any external module using pip command in the terminal."""
 
-# Importing External Modules
-# To use external modules, we need to install them first, we can easily install any external module using pip command in the terminal, for example:
-
-# pip install "module_name"
+# Example
+"""pip install pandas"""
 
 import pandas
 
