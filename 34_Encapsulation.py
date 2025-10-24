@@ -1,5 +1,5 @@
-# Encapsulation -> hiding internal details of a class and only exposing what’s necessary.
-# It helps to protect important data from being changed directly and keeps the code secure and organized.
+"""Encapsulation -> hiding internal details of a class and only exposing what’s necessary.
+It helps to protect important data from being changed directly and keeps the code secure and organized."""
 
 # Example of Encapsulation
 class Employee:
@@ -56,7 +56,7 @@ emp.show_salary()        # Accessing private correctly
 
 
 
-# Declaring Protected and private methods
+"""Declaring Protected and private methods"""
 # 1. Use a single underscore (_) before a method name to indicate it is protected meant to be used within class or its subclasses.
 # 2. Use a double underscore (__) to define a private method accessible only within class due to name mangling.
 class BankAccount:

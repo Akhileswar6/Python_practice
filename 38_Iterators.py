@@ -1,5 +1,5 @@
-# Iterators in Python
-# An iterator in Python is an object used to traverse through all the elements of a collection (like lists, tuples or dictionaries) one element at a time.
+"""Iterators in Python
+An iterator in Python is an object used to traverse through all the elements of a collection (like lists, tuples or dictionaries) one element at a time."""
 
 # __iter__(): Returns the iterator object itself.
 # __next__(): Returns the next value from the sequence. Raises StopIteration when the sequence ends.

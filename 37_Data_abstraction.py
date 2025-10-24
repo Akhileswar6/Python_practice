@@ -1,4 +1,5 @@
-# Data Abstraction -> Python abstraction is used to hide the implementation details from the user and expose only necessary parts, making the code simpler and easier to interact with.
+"""Data Abstraction -> Python abstraction is used to hide the implementation details from the user and expose only necessary parts,
+making the code simpler and easier to interact with."""
 
 # Abstract Base class
 from abc import ABC, abstractmethod

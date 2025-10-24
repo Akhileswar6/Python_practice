@@ -1,5 +1,5 @@
-# Polymorphism -> "many forms"
-# Polymorphism allows same method, function or operator to behave differently depending on object it is working with.
+"""Polymorphism -> "many forms"
+Polymorphism allows same method, function or operator to behave differently depending on object it is working with."""
 
 # Types of Polymorphism (Overloading)
 # 1. Compile-time Polymorphism -> Compile-time polymorphism means deciding which method or operation to run during compilation, usually through method or operator overloading.
