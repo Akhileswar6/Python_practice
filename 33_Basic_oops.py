@@ -1,4 +1,6 @@
-# Python class -> Classes are blueprints for creating objects. A class defines a set of attributes and methods that the created objects (instances) can have.
+"""Python class -> Classes are blueprints for creating objects.
+A class defines a set of attributes and methods that the created objects (instances) can have."""
+
 class Dog:
     species = "Canine"
 

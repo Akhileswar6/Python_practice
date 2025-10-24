@@ -1,5 +1,5 @@
-# Inheritance -> It allows a class (child class) to inherit properties and behaviors (attributes and methods) from another class (parent class).
-# It promotes code reusability and establishes a hierarchical relationship between classes.
+"""Inheritance -> It allows a class (child class) to inherit properties and behaviors (attributes and methods) from another class (parent class).
+It promotes code reusability and establishes a hierarchical relationship between classes."""
 
 class Animal:
     def __init__(self, name):
