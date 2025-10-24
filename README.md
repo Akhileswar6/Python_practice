@@ -47,6 +47,10 @@ Clone this repository:
 git clone https://github.com/Akhileswar6/Python_practice.git
 cd Python_practice
 ```
+Run the File:
+```bash
+python file_name.py
+```
 
 
 
