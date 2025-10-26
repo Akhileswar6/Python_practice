@@ -4,7 +4,7 @@ def greet():
     print(msg)
 
 greet()
-
+"""print("Outside:", msg)"""  # This will raise an error since msg is not defined outside the function
 
 # global variables
 msg = "Hello"
@@ -16,11 +16,11 @@ print("Outside:",msg)  # Accessing global variable outside the function
 
 
 def fun():
-    print("Inside Function", s)
+    print("Inside Function: ", s)
 
 s = "I love Geeksforgeeks"
 fun()
-print("Outside Function", s)
+print("Outside Function: ", s)
 
 
 # Modifying Global Variables Inside a Function
@@ -30,4 +30,4 @@ def fun():
     print(s)
 s = "I love Geeksforgeeks "
 fun()
-print("Outside Function", s)
+print("Outside Function: ", s)
