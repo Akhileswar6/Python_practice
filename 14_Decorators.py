@@ -40,7 +40,8 @@ print(res)
 
 
 
-# Types of Decorators
+"""Types of Decorators"""
+
 # 1. Function Decorators
 # Function decorators are used to modify or enhance the behavior of functions.
 def simple_decorator(func):
@@ -86,7 +87,7 @@ obj = MyClass()
 obj.say_hello()     
 
 
-# Common Built-in Decorators in Python
+"""Common Built-in Decorators in Python"""
 # @staticmethod
 class MathOperations:
     @staticmethod
