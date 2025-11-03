@@ -30,7 +30,6 @@ res = [val for row in mat for val in row]
 print(res)
 
 
-
 set1 = {0, 2, 4, 6, 8}; 
 set2 = {1, 2, 3, 4, 5}; 
 
