@@ -1,3 +1,7 @@
+# Exception is an event which occurs at runtime execution, that disrupts the normal flow of instructions.
+# They are used to handle errors or ununexpected situations gracefully without crashing the program.
+
+
 # Handling a Simple Exception in Python
 n = 10
 try:
@@ -91,3 +95,5 @@ try:
     set(-5)
 except ValueError as e:
     print(e)
+
+

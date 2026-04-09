@@ -18,7 +18,7 @@ print(str3.replace("Venkateswara", "College")) # Replace substring
 print(str3.split()) # Split into a list of words
 print(str3.find("a")) # Find the first occurence index of a substring
 print(str3.index("Venkateswara")) # Find the index of a substring (raises error if not found)
-print(str3.count("a")) # Count occurrences of a character
+print(str3.count("Akhil")) # Count occurrences of a character
 print(str3.startswith("Ven")) # Check if string starts with a substring
 print(str3.endswith("ara")) # Check if string ends with a substring
 print(str3.isalpha())

@@ -101,6 +101,10 @@ s1.details()
 s2.details()
 
 
+
+
+
+
 # Instance vs Class Variable
 class student:
     # class variable (shared by all)
